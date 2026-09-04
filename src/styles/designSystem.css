@@ -18,8 +18,8 @@
 
 body {
   font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
-  background-color: #340608;
-  color: #F7F3EE;
+  background-color: #FAF7F2;
+  color: #1A1718;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -48,10 +48,10 @@ body {
 
 /* Glassmorphism Navigation */
 .glass-gold-nav {
-  background: rgba(36, 5, 8, 0.88);
+  background: rgba(250, 247, 242, 0.94);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(212, 175, 55, 0.22);
+  border-bottom: 1px solid #EBE3D7;
 }
 
 /* Archival Luxury Framing for the model */

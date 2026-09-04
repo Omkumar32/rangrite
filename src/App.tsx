@@ -7,6 +7,7 @@ import { CatalogView } from './components/catalog/CatalogView';
 import { BoutiquesLocatorView } from './components/boutiques/BoutiquesLocatorView';
 import { HeritageTrustView } from './components/heritage/HeritageTrustView';
 import { CartCheckoutView } from './components/cart/CartCheckoutView';
+import { AdminStudio } from './components/admin/AdminStudio';
 import { MobileNativeSimulator } from './components/mobile/MobileNativeSimulator';
 import { AtelierCustomizerModal } from './components/customizer/AtelierCustomizerModal';
 import { SalonBookingModal } from './components/concierge/SalonBookingModal';
@@ -17,7 +18,7 @@ export const MainApp: React.FC = () => {
   const { currentView, deviceMode, toastMessage } = useStore();
 
   return (
-    <div className="min-h-screen flex flex-col bg-brand-velvet text-brand-sand selection:bg-brand-gold selection:text-brand-velvet">
+    <div className="min-h-screen flex flex-col bg-[#FAF7F2] text-[#1A1718] selection:bg-[#3b080a] selection:text-[#FAF7F2]">
       {/* Toast Notification Banner */}
       {toastMessage && (
         <div className="fixed bottom-6 right-6 z-50 bg-[#1A1718] text-white px-5 py-3 rounded-xl shadow-2xl border border-brand-gold flex items-center gap-3 animate-fade-in text-xs">
@@ -43,6 +44,7 @@ export const MainApp: React.FC = () => {
             {currentView === 'heritage' && <HeritageTrustView />}
             {currentView === 'customizer' && <CatalogView />}
             {currentView === 'cart' && <CartCheckoutView />}
+            {currentView === 'admin' && <AdminStudio />}
           </>
         )}
       </main>
@@ -52,7 +54,7 @@ export const MainApp: React.FC = () => {
       <AtelierCustomizerModal />
 
       {/* Global Luxury Footer */}
-      {deviceMode === 'desktop' && currentView !== 'home' && <Footer />}
+      {deviceMode === 'desktop' && currentView !== 'admin' && <Footer />}
     </div>
   );
 };
