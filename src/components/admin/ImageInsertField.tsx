@@ -12,8 +12,11 @@ interface ImageInsertFieldProps {
 }
 
 const PRESET_GALLERY: Array<{ name: string; url: string; isVideo?: boolean }> = [
-  { name: 'Bridal Twirl Editorial Video', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4', isVideo: true },
-  { name: 'Fabric Motion Video', url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4', isVideo: true },
+  { name: 'Bridal Chaniya Choli Twirl (Uploaded Video)', url: '/uploads/1788563400782___Crafted_in_soft_Mul_Chanderi_cotton__this_elegant_Chaniya_Choli_features_intricate_mirror_hand.mp4', isVideo: true },
+  { name: 'Hand-Embroidered Blouse Mirror Work 1 (WebP)', url: '/uploads/1788563465006_Featuring_a_hand-embroidered_mirror_work_blouse_adorned_with_golden_thread_detailing__paired_wit__1_.webp' },
+  { name: 'Hand-Embroidered Blouse Mirror Work 2 (WebP)', url: '/uploads/1788563481505_Featuring_a_hand-embroidered_mirror_work_blouse_adorned_with_golden_thread_detailing__paired_wit.webp' },
+  { name: 'Chaniya Choli Gold Zardozi (WebP)', url: '/uploads/1788563570690_This_elegant_chaniya_choli_features_a_beautifully_hand-embroidered_blouse_adorned_with_intricate.webp' },
+  { name: 'Gaji Silk Vintage Rabari Patch (WebP)', url: '/uploads/1788563590118_The_blouse_is_tailored_in_luxurious_Gaji_Silk__adorned_with_authentic_vintage_Kutchi_Rabari_patc.webp' },
   { name: 'Red Saree Archway', url: '/images/categories/cat-sarees-drapes.jpg' },
   { name: 'Purple Bridal Lehenga', url: '/images/categories/cat-lehenga-choli.jpg' },
   { name: 'Emerald Anarkali Suit', url: '/images/categories/cat-suits-sets.jpg' },

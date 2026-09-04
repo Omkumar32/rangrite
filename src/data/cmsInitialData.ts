@@ -97,12 +97,13 @@ export const INITIAL_HERO_CONFIG: HeroConfig = {
   primaryCtaText: 'Explore The Collection',
   primaryCtaCategory: 'Bridal Regalia',
   secondaryCtaText: 'Book Bespoke Fitting',
-  modelImage: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB0rE-sF1BDYoIfwTHOu4tXMWHeLZ3bRhMkHceV5tlKwcxZvBDU9Ee6nP_yuRKWmS-BZXby1FUQyuigrHrO116ONeiUnEhWXyUO9AU7QXW0PNQfumAvDpO1e5fgy5ExLbNeAXBc4JIxc0TtOFjaISyGCQrC-YM6jHc7YAG89KH1_lIo97Luz7VRQa36q6ERdiKuKB1Hx2sAQO3sOGxqNUm4eVjTKDjmIDY2amAk2MZZyzoP6-6Fw7Q8O0F1iam14uTeNhk',
+  modelImage: '/uploads/1788563400782___Crafted_in_soft_Mul_Chanderi_cotton__this_elegant_Chaniya_Choli_features_intricate_mirror_hand.mp4',
   modelImages: [
-    'https://lh3.googleusercontent.com/aida-public/AB6AXuB0rE-sF1BDYoIfwTHOu4tXMWHeLZ3bRhMkHceV5tlKwcxZvBDU9Ee6nP_yuRKWmS-BZXby1FUQyuigrHrO116ONeiUnEhWXyUO9AU7QXW0PNQfumAvDpO1e5fgy5ExLbNeAXBc4JIxc0TtOFjaISyGCQrC-YM6jHc7YAG89KH1_lIo97Luz7VRQa36q6ERdiKuKB1Hx2sAQO3sOGxqNUm4eVjTKDjmIDY2amAk2MZZyzoP6-6Fw7Q8O0F1iam14uTeNhk',
-    '/images/categories/cat-lehenga-choli.jpg',
-    '/images/categories/cat-sarees-drapes.jpg',
-    '/images/categories/cat-suits-sets.jpg'
+    '/uploads/1788563400782___Crafted_in_soft_Mul_Chanderi_cotton__this_elegant_Chaniya_Choli_features_intricate_mirror_hand.mp4',
+    '/uploads/1788563465006_Featuring_a_hand-embroidered_mirror_work_blouse_adorned_with_golden_thread_detailing__paired_wit__1_.webp',
+    '/uploads/1788563481505_Featuring_a_hand-embroidered_mirror_work_blouse_adorned_with_golden_thread_detailing__paired_wit.webp',
+    '/uploads/1788563570690_This_elegant_chaniya_choli_features_a_beautifully_hand-embroidered_blouse_adorned_with_intricate.webp',
+    '/uploads/1788563590118_The_blouse_is_tailored_in_luxurious_Gaji_Silk__adorned_with_authentic_vintage_Kutchi_Rabari_patc.webp'
   ],
   autoSlideInterval: 4000,
   floatingLookTitle: 'Look 07 • Festive Royale',
