@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RANGRETI HAUTE COUTURE | Luxury Bridal &amp; Festive Atelier</title>
+    <!-- Google Fonts for Luxury Editorial Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet" />
+    <!-- Tailwind CSS v3 with plugins -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <!-- Tailwind Configuration -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                crimson: '#4a080c',
+                velvet: '#340608',
+                ruby: '#6b0d12',
+                gold: '#D4AF37',
+                goldLight: '#F3E5AB',
+                champagne: '#EED9B3',
+                sand: '#F7F3EE'
+              }
+            },
+            fontFamily: {
+              serif: ['"Cormorant Garamond"', 'serif'],
+              display: ['"Cinzel"', 'serif'],
+              sans: ['"Montserrat"', 'sans-serif']
+            },
+            boxShadow: {
+              'luxury': '0 20px 45px -10px rgba(0, 0, 0, 0.65)',
+              'gold-glow': '0 0 25px rgba(212, 175, 55, 0.28)'
+            }
+          }
+        }
+      }
+    </script>
+    <!-- Custom Typography & Layout Adjustments -->
+    <style data-purpose="custom-typography">
+      .font-tracking-widest-luxury {
+        letter-spacing: 0.28em;
+      }
+      .font-tracking-editorial {
+        letter-spacing: 0.18em;
+      }
+    </style>
+    <style data-purpose="visual-effects">
+      .glass-gold-nav {
+        background: rgba(36, 5, 8, 0.72);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        border-bottom: 1px solid rgba(212, 175, 55, 0.18);
+      }
+      .gold-shimmer-border {
+        position: relative;
+      }
+      .gold-shimmer-border::after {
+        content: '';
+        position: absolute;
+        inset: -1px;
+        border: 1px solid rgba(212, 175, 55, 0.35);
+        pointer-events: none;
+        transition: border-color 0.4s ease;
+      }
+      .gold-shimmer-border:hover::after {
+        border-color: rgba(243, 229, 171, 0.85);
+      }
+      .archival-frame {
+        box-shadow: 0 25px 50px -12px rgba(10, 0, 2, 0.85), inset 0 0 0 1px rgba(212, 175, 55, 0.25);
+      }
+    </style>
+  </head>
+  <body class="bg-brand-velvet text-brand-sand font-sans antialiased selection:bg-brand-gold selection:text-brand-velvet min-h-screen overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

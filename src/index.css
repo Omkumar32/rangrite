@@ -1,0 +1,10 @@
+@import "./styles/designSystem.css";
+
+/* Tailwind browser runner will process classes; add essential helpers */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
